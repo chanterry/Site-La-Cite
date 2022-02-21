@@ -1,0 +1,473 @@
+/* COMMUN AUX PAGES */
+
+body{
+    font-family: poppins;
+}
+
+.links{
+    background: black;  
+    border-radius: 15px;
+    color: ivory;
+    padding: 5px;
+}
+
+.links:hover{
+    background: white;  
+    color: black;
+}
+
+.titre_centre{
+    text-align: center;
+}
+
+.liste{
+    list-style: none;
+    padding-left: 0px;
+}
+
+    /* HEADER */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.navbar.sticky{
+    background: #fff;
+}
+
+.navbar.sticky ul li a{
+    color: #000;
+}
+
+.navbar.sticky ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: ivory;
+    font-size: 1.2em;
+}
+
+header ul li a{
+    color: ivory;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.logo, .traduction{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_background_header{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+    /* FOOTER */
+
+.image_footer{
+    background-image: url('image/footer.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    padding: 80px 0;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.7em;
+}
+
+/* PAGE INDEX HEADER */
+
+#background-video {
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bienvenue{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.informations{
+    color: #fff;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.informations h1{
+    letter-spacing: 2px;
+}
+
+/* PAGE INDEX MAIN */
+
+main h1{
+    text-transform: uppercase;
+}
+
+.culte_enligne {
+    background-image: url('image/church_online.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 2rem;
+    margin-top: 12vh;
+    height: 600px;
+}
+
+.enligne {
+    padding: 225px 0;
+    text-align: center;
+    color: black;
+}
+
+.img_nouveau {
+    background-image: url('image/nouveau.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 2rem;
+    height: 600px;
+}
+
+.phrase_accroche {
+    padding: 250px 0;
+    text-align: center;
+    color: white;
+}
+
+.img_presentation {
+    background-image: url('image/img_presentation.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 2rem;
+    height: 600px;
+}
+
+.img_chez_nous {
+    background-image: url('image/img_chez_nous.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 2rem;
+    height: 600px;
+}
+
+.img_offrandes {
+    background-image: url('image/img_offrandes.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 2rem;
+    height: 600px;
+}
+
+.img_paris{
+    background-image: url('image/paris.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.vision{
+    padding: 300px 0;
+    text-align: center;
+    color: ivory;
+    font-style: oblique;
+}
+
+/* PAGE DIMANCHES */
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.details_utiles{
+    background-image: url('image/rejoignez_nous.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    color: #fff;
+}
+
+.bloc_information{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 150px;
+    text-align: center;
+    padding-left: 75px;
+}
+
+.bloc_map{
+    padding-left: 100px;
+}
+
+.metro_glaciere{
+    display: inline-block;
+    text-align: center;
+}
+
+.bloc_centre_noir {
+    padding: 25px 0;
+    text-align: center;
+    color: #000;
+}
+
+.bloc_centre_blanc {
+    padding: 125px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* PAGE PRESENTATION */
+
+.equipe_pastorale{
+    padding: 50px;
+}
+
+.descriptif_cadre{
+    display: inline-block;
+    width: 800px;
+    height: 300px;
+    vertical-align: top;
+}
+
+.descriptif_anciens{
+    padding: 100px;
+}
+
+.fred_vanessa{
+    display: inline-block;
+    background-image: url('image/F&V.jpg');
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+
+.marius_simona{
+    display: inline-block;
+    background-image: url('image/M&S.jpg');
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+
+.nath_camille{
+    display: inline-block;
+    background-image: url('image/C&N.jpg');
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+}
+
+.notre_histoire{
+    background-image: url('image/notre_histoire.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    color: white;
+}
+
+/* PAGE CONNECTION */
+
+.section_connection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infos_connection{
+    width: calc(100%/2);
+    text-align: center;
+    padding: 100px;
+    height: 400px;
+}
+
+.section_ensemble{
+    background-image: url('image/section_ensemble.jpg');
+    background-size: cover ;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.section_connecter{
+    background-image: url('image/section_connecter.jpg');
+    background-size: cover ;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.section_vip{
+    background-image: url('image/section_vip.jpg');
+    background-size: cover ;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.demande_priere{
+    background-image: url('image/demande_priere.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.img_connection{
+    background-image: url('image/connection.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    color: white;
+}
+
+/* PAGE CHEZ NOUS */
+
+#cheznous_video{
+    width: 100vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.section_cheznous{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infos_cheznous{
+    width: calc(100%/2);
+}
+
+.infos_cheznous_details{
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+}
+
+.img_cheznous{
+    background-image: url('image/ChezNous.JPG');
+    background-size: contain;
+    height: 504px;
+    width: auto;
+}
+
+.img_map{
+    background-image: url('image/img_map.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.carte_cheznous{
+    text-align: center;
+    padding: 50px;
+}
+
+/* PAGE DONS */
+
+.section_dons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_don1{
+    background-image: url('image/dons1.jpg');
+    background-size: cover;
+    height: 400px;
+    width: auto;
+}
+
+.img_don2{
+    background-image: url('image/dons2.jpg');
+    background-size: cover;
+    height: 400px;
+    width: auto;
+}
+
+.infos_dons
+{
+    width: calc(100%/2);
+}
+
+.coordonnées_bancaires{
+    padding: 60px 50px;
+}
+
+.coordonnées_bancaires ul{
+    list-style: none;
+}
+
+/* LIENS */
+
+.lien_page_noir {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.opacity_noir {
+    border: 2px solid #000;
+    border-radius: 4px;
+    transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.opacity_noir:hover {
+    color: #fff;
+    background: #000;
+}
+
+.lien_page {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 10px;
+}
+
+.opacity {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s linear, color 0.3s linear;
+    background: rgba(255, 255, 255, 0);
+}
+
+.opacity:hover {
+    color: #000;
+    background: rgba(255, 255, 255, 0.9);
+}
